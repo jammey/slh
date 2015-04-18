@@ -18,7 +18,13 @@
     <script src="internalScripts/usercenter.js"></script>
     <script src="internalScripts/usersetting.js"></script>
     <script src="internalScripts/commercialcategory.js"></script>
+    <script src="internalScripts/boostercategory.js"></script>
+    <script src="internalScripts/boostergovernment.js"></script>
     <script src="internalScripts/commercialperson.js"></script>
+    <script src="internalScripts/enterprisewindow.js"></script>
+    <script src="internalScripts/enterprisecategory.js"></script>
+    <script src="internalScripts/enterprisedetail.js"></script>
+    <script src="internalScripts/usercollect.js"></script>
     <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
     <link href="css/idangerous.swiper.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
@@ -38,7 +44,7 @@
             </div>
         </div>
         <div class="swiper-container" id="pageIndex_imgs">
-            <div id="pageIndex_topImg" style="height:auto" data-template="pageIndex_topImgTemplate" class="swiper-wrapper">
+            <div id="pageIndex_topImg" style="height: auto" data-template="pageIndex_topImgTemplate" class="swiper-wrapper">
             </div>
             <div class="imageTitleDiv">
                 <div id="pageIndex_topImgTitle"></div>
@@ -51,7 +57,7 @@
         </div>
         <div id="standardFooter" data-role="footer" data-fullscreen="false" data-position="fixed" data-toggle="false" data-theme="c">
         </div>
-        <div id="footerTemplate" style="display:none;">
+        <div id="footerTemplate" style="display: none;">
             <div data-role="navbar" data-grid="c" class="ui-group-theme-c">
                 <ul>
                     <li><a href="#" data-icon="custom" data-iconpos="notext" class="ui-icon-shouye"></a></li>
@@ -63,20 +69,20 @@
         </div>
         <!-- /content -->
         <!-- /footer -->
-        <div style="display:none;">
+        <div style="display: none;">
             <div id="pageIndex_topMenuTemplate">
                 <div class="swiper-slide" data-bind="text:{Title};uniqueindex:{UniqueIndex}">
                 </div>
             </div>
         </div>
-        <div style="display:none;">
-            <div id="pageIndex_topImgTemplate" >
-                <div class="swiper-slide" >
-                   <img style="width:100%" onclick="changePage('newsdetail.html')" />
+        <div style="display: none;">
+            <div id="pageIndex_topImgTemplate">
+                <div class="swiper-slide">
+                    <img style="width: 100%" onclick="changePage('newsdetail.html')" />
                 </div>
             </div>
         </div>
-        <div style="display:none;">
+        <div style="display: none;">
             <ul id="pageIndex_newsTemplate">
                 <li>
                     <h2 data-bind="text:{Title}"></h2>
@@ -85,9 +91,9 @@
             <ul id="pageIndex_newsImageTemplate">
                 <li>
                     <img>
-                    <h2 data-bind="text:{Title}"> </h2>
+                    <h2 data-bind="text:{Title}"></h2>
                     <!--<p style="white-space:initial;" data-bind="text:{Description}"></p>-->
-                    <p data-bind="text:{Description}" style="white-space:initial; height: 30px;"></p>
+                    <p data-bind="text:{Description}" style="white-space: initial; height: 30px;"></p>
                 </li>
             </ul>
         </div>

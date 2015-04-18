@@ -1,10 +1,71 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/index.js"></script>
+    <script src="internalScripts/userlogin.js"></script>
+    <script src="internalScripts/userregcomplete.js"></script>
+    <script src="internalScripts/userreg.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/usercenter.js"></script>
+    <script src="internalScripts/usersetting.js"></script>
+    <script src="internalScripts/enterprisewindow.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
+    <div data-role="page" id="pageEnterpriseWindow" data-theme="d" class="backgroundGray" data-dom-cache="true">
+        <div data-role="header">
+            <a data-role="button" data-icon="custom" data-iconpos="notext" data-rel="back" class="header-icon-cback" href="#"></a>
+            <h2>企业之星</h2>
+            <a data-role="button" data-icon="flat-search" data-iconpos="notext" href="#"></a>
+        </div>
+        <div id="swiperNav" style="min-height: 30px;"></div>
+        <div data-role="content">
+            <div class="ui-grid-a">
+                 
+                    <div class="whitesquare">
+                        <img src="images/iconfont-shangjiaqun.png" />
+                        <div class="category-name">
+                            会员风采
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="ui-grid-a" style="margin-top: 10px;">
+                <div class="ui-block-a category-block">
+                    <div class="whitesquare">
+                        <img src="images/iconfont-renzhengyonghu.png" />
+                        <div class="category-name">
+                            新实名认证
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-block-b category-block">
+                    <div class="whitesquare">
+                         <a href="enterprisecategory.html"><img src="images/iconfont-dianzishu.png" />
+                        <div class="category-name">
+                            企业名册
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+        <div id="standardFooter" data-role="footer" data-fullscreen="false" data-position="fixed" data-toggle="false" data-theme="c">
+        </div>
+        <!-- /content -->
+        <!-- /footer -->
+    </div>
 
 </body>
 </html>

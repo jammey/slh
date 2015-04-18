@@ -17,8 +17,9 @@ $(document).on("pageinit", "[data-role='page']", function () {
         //$(this).find("#footerXiaoxi").on("click", function () {
         //});
 
-        //$(this).find("#footerSubscribe").on("click", function () {
-        //});
+        $(this).find("#footerSubscribe").on("click", function () {
+            checkLoginAndRedirect("usercollect.html");
+        });
 
         $(this).find("#footerUserCenter").on("click", function () {
             checkLoginAndRedirect("usercenter.html");

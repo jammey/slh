@@ -10,7 +10,7 @@ $(document).on("click", "#pageIndex_topMenu div", function() {
         changePage("commercialcategory.html");
     }
     if ($(this).attr("uniqueindex") == "企业窗") {
-        changePage("enterprisecategory.html");
+        changePage("enterprisewindow.html");
     }
     if ($(this).attr("uniqueindex") == "助推器") {
         changePage("boostercategory.html");

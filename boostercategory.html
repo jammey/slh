@@ -13,33 +13,34 @@
     <script src="internalScripts/core.js"></script>
     <script src="internalScripts/userlogin.js"></script>
     <script src="internalScripts/commercialcategory.js"></script>
+    <script src="internalScripts/boostercategory.js"></script>
     <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
     <link href="css/idangerous.swiper.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
-    <div data-role="page" id="pageCommercialCategory" data-theme="d" class="backgroundGray" data-dom-cache="true">
+    <div data-role="page" id="pageBoosterCategory" data-theme="d" class="backgroundGray">
         <div data-role="header">
             <a href="#" data-icon="custom" data-iconpos="notext" data-role="button" data-rel="back" class="header-icon-cback"></a>
-            <h2>商联会</h2>
+            <h2>助推器</h2>
             <a data-role="button" data-icon="flat-search" data-iconpos="notext" href="#"></a>
         </div>
         <div id="swiperNav" style="min-height: 30px;"></div>
         <div data-role="content" data-theme="none">
             <div class="ui-grid-a">
                 <div class="ui-block-a category-block">
-                    <div class="whitesquare">
-                        <img src="images/mishu.png" />
+                    <div class="whitesquare" onclick="changePage('boostergovernment.html')">
+                        <img src="images/iconfont-fukuanfangshi.png" />
                         <div class="category-name">
-                            商联会秘书处
+                            专项资金扶持
                         </div>
                     </div>
                 </div>
                 <div class="ui-block-b category-block">
                     <div class="whitesquare">
-                        <img src="images/hr.png" />
+                        <img src="images/iconfont-zhexiantu.png" />
                         <div class="category-name">
-                            HR分会
+                            四版挂牌
                         </div>
                     </div>
                 </div>
@@ -47,17 +48,17 @@
             <div class="ui-grid-a" style="margin-top:10px;">
                 <div class="ui-block-a category-block">
                     <div class="whitesquare">
-                        <img src="images/iconfont-shejishi.png" />
+                        <img src="images/iconfont-wodezichan.png" />
                         <div class="category-name">
-                            供应商分会
+                            融资贷款
                         </div>
                     </div>
                 </div>
                 <div class="ui-block-b category-block">
                     <div class="whitesquare">
-                        <img src="images/iconfont-shouji.png" />
+                        <img src="images/iconfont-tianjiashangjia.png" />
                         <div class="category-name">
-                            手机分会
+                            人才交流 
                         </div>
                     </div>
                 </div>
@@ -65,28 +66,27 @@
             <div class="ui-grid-a" style="margin-top:10px;">
                 <div class="ui-block-a category-block">
                     <div class="whitesquare">
-                        <img src="images/ceo.png" />
+                        <img src="images/iconfont-jihua.png" />
                         <div class="category-name">
-                            CEO分会
+                            培训课程
                         </div>
                     </div>
                 </div>
                 <div class="ui-block-b category-block">
                     <div class="whitesquare">
-                        <img src="images/keji.png" />
+                        <img src="images/iconfont-lianjie.png" />
                         <div class="category-name">
-                            商联科技
+                            战略合作
                         </div>
                     </div>
                 </div>
             </div>
-           
-        </div>
-        <div id="standardFooter" data-role="footer" data-fullscreen="false" data-position="fixed" data-toggle="false" data-theme="c">
-        </div>
-        <div style="display:none;">
-            <div id="pageIndex_topMenuTemplate">
-                <div class="swiper-slide" data-bind="text:{Title};uniqueindex:{UniqueIndex}">
+            <div id="standardFooter" data-role="footer" data-fullscreen="false" data-position="fixed" data-toggle="false" data-theme="c">
+            </div>
+            <div style="display:none;">
+                <div id="pageIndex_topMenuTemplate">
+                    <div class="swiper-slide" data-bind="text:{Title};uniqueindex:{UniqueIndex}">
+                    </div>
                 </div>
             </div>
         </div>
