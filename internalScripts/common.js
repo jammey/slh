@@ -17,7 +17,8 @@ document.addEventListener("deviceready", onDeviceReady, false);
 // device APIs are available
 function onDeviceReady() {
     window.deviceReady = true;
-    if (window.plugins.jPushPlugin) {
+    navigator.splashscreen.hide();
+    if (window.plugins&&window.plugins.jPushPlugin) {
         window.plugins.jPushPlugin.init();
         window.plugins.jPushPlugin.setDebugMode(true);
     }
@@ -40,7 +41,7 @@ function onDeviceReady() {
     StatusBar.overlaysWebView(false);
     StatusBar.backgroundColorByHexString("#0689C7");
 
-    navigator.splashscreen.hide();
+    
 
     if (!localStorage.getItem("c_device_platform")) {
         localStorage.setItem("c_device_platform", window.device.platform);
@@ -277,10 +278,10 @@ var Ajax = (function () {
             },
             error: function (xmlHttpRequest, textStatus, errorThrown) {
                 if (window.deviceReady) {
-                    Messagebox.popup("Call API error");
+                    Messagebox.popup("网络异常，请重试");
                 }
                 else {
-                    Messagebox.popup("Call API error:" + textStatus);
+                    Messagebox.popup("网络异常，请重试:" + textStatus);
                 }
             }
         };

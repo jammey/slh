@@ -1,4 +1,4 @@
-﻿$(document).on("pageshow", "#pageCommercialCategory", function (event, ui) {
+﻿$(document).on("pageinit", "#pageCommercialCategory", function (event, ui) {
     var $page = $(this);
 
     if ($page.find("#swiperNav #pageIndex_nav").length == 0) {

@@ -14,5 +14,7 @@
         });
     }
 
-  
+    $page.find(".tuoyuan").on("click", function () {
+        changePage("enterpriselist.html");
+    });
 });

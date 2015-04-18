@@ -285,6 +285,18 @@ article p {
     color: white;
 }
 
+.tuanyuan2 {
+    background-color: #ffc14a;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: .8em;
+}
+
 .tableProfile {
     width: 100%;
 }
