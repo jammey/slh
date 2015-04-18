@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "SLH"
+        id        = "Jefacotira.SLH"
         version   = "1.0.0">
-  <name>TA</name>
+  <name>商联会</name>
 
   <description>
-    SLH
+    商联会
   </description>
   <access origin="*" />
   <gap:plugin name="org.apache.cordova.camera" />
