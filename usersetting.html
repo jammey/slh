@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/index.js"></script>
+    <script src="internalScripts/userlogin.js"></script>
+    <script src="internalScripts/userregcomplete.js"></script>
+    <script src="internalScripts/userreg.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/usercenter.js"></script>
+    <script src="internalScripts/usersetting.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageSetting" data-theme="d">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">
+            <a href="#" data-icon="custom" data-iconpos="notext" data-role="button" data-rel="back" class="header-icon-cback"></a>
+            <h2>
+                设置
+            </h2>
+        </div>
+        <!-- /header -->
+        <div data-role="content" data-theme="none">
+            <div>
+                <ul data-role="listview" data-theme="c">
+                    <li>
+                        <a href="#" data-transition="slide" style="padding-left:10%; background-color:white">
+                            推送通知
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-transition="slide" style="padding-left:10%; background-color:white">
+                            企业家推送
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-transition="slide" style="padding-left:10%; background-color:white">
+                            意见反馈
+                        </a>
+                    </li>
+                    <li>
+                        <a id="pageSetting_aLogoff" href="#" data-transition="slide" style="padding-left:10%; background-color:white">
+                            退出登录
+                        </a>
+                    </li>
+                </ul>
+                <!--<fieldset class="ui-mini ui-content">
+                    <a id="pageUserCenter_logout" data-role="button" data-transition="slide" style="margin-top:5em;" data-theme="e">退出登录</a>
+                </fieldset>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/userlogin.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageUserLogin" data-theme="d" class="backgroundGray">
+        <div data-role="header">
+            <a href="#" data-icon="custom" data-iconpos="notext" data-role="button" data-rel="back" class="header-icon-cback"></a>
+            <h2>登录</h2>
+        </div>
+        <div data-role="content" data-theme="none">
+            <div id="pageUserLogin_tabLogin" class="tabLoginDiv">
+                <div data-role="fieldcontain">
+                    <input id="pageUserLogin_txtLoginMobile" placeholder="请输入手机号" class="ui-mini" data-corners="false" />
+                    <input type="password" id="pageUserLogin_txtLoginPassword" placeholder="请输入密码" class="ui-mini" data-corners="false" />
+                    <p class="forgetPwd">忘记密码？</p>
+                </div>
+            </div>
+            <div style="width: 100%; text-align: center;">
+                <div class="yuanButton" style="background-color: #c1392b;margin-top: 10px;">
+                    <!--<img src="images/iconfont-youjiantou.png" />-->
+                    <span id="pageUserLogin_spanLogin" class="spanLogin" style="cursor: pointer;">登录</span>
+                </div>
+            </div>
+            <div style="width: 100%; text-align: center;">
+                <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 35px;margin-right: 15%;">
+                    帮助
+                </div>
+                <div id="pageUserLogin_divReg" class="tuoyuan" style="background-color: #c1392b;margin-top: 35px;">
+                    注册
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

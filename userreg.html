@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/userreg.js"></script>
+    <script src="internalScripts/userregcomplete.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageUserReg" data-theme="d" class="backgroundGray">
+        <div data-role="header">
+            <a href="#" data-icon="custom" data-iconpos="notext" data-role="button" data-rel="back" class="header-icon-cback"></a>
+            <h2>注册</h2>
+        </div>
+        <div data-role="content" data-theme="none">
+            <div id="pageUserReg_tabLogin" class="tabRegDiv">
+                <div data-role="fieldcontain" style="text-align: center; ">
+                    <p>请确认国家和地区并输入手机号码</p>
+                    <div style="text-align: center;margin-top: 30px;">
+                        <span style="color:#dddddd;">国家和地区</span><select style="width: 100px;margin-left: 20px;" data-role="none">
+                            <option value="中国">中国</option>
+                        </select>
+                    </div>
+                    <div style="text-align: center;margin-top: 30px;">
+                        <input id="pageUserReg_txtRegMobile" type="text" style="width: 70%;" data-role="none" placeholder="请输入注册手机号">
+                    </div>
+                    <div style="text-align: center;margin-top: 20px;">
+                        <input id="pageUserReg_txtRegPassword" type="password" style="width: 70%;" data-role="none" placeholder="请输入6~10位密码">
+                    </div>
+                    <div style="text-align: center;margin-top: 20px;">
+                        <input id="pageUserReg_txtRegPasswordConfirm" type="password" style="width: 70%;" data-role="none" placeholder="请再次输入6~10位密码">
+                    </div>
+                    <div style="text-align: center;margin-top: 20px;margin-left: -3px;margin-right: -3px;">
+                        <div style="width: 70%;margin: 0 auto;text-align: left;">
+                            <input id="pageUserReg_txtRegVcode" type="text" style="width: 40%;" data-role="none" placeholder="验证码">
+                            <div id="pageUserReg_divRegGetCode" class="tuoyuanSmall getVCode" style="">
+                                获取验证码
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-top: 40px;">
+                        <div id="pageUserReg_btnReg" class="tuoyuan" style="background-color: #c1392b;">
+                            注册
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-top: 40px;">
+                        <span>轻触上面的“注册”按钮</span>
+                        <br />
+                        <span>即表示您同意本APP的</span><span style="color:red;text-decoration :underline;">使用条款</span>
+                    </div>
+                </div>
+            </div>
+            <!-- /content -->
+            <!-- /footer -->
+        </div>
+    </div>
+</body>
+</html>

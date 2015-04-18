@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/index.js"></script>
+    <script src="internalScripts/userlogin.js"></script>
+    <script src="internalScripts/userregcomplete.js"></script>
+    <script src="internalScripts/userreg.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/usercenter.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageUserDetailUpdate" data-theme="d">
+        <div data-role="header">
+            <a href="#" data-icon="custom" data-iconpos="notext" data-role="button" data-rel="back" class="header-icon-cback"></a>
+            <h2>修改资料</h2>
+        </div>
+        <div data-role="content" data-theme="none">
+            <div>
+                <div style="text-align: center;">
+                    <img src="images/3.jpeg" style="width: 128px;" />
+                    <div style="font-weight: bold;margin: 5px 0 40px 0">于朝晖</div>
+                </div>
+                <ul data-role="listview" data-theme="c">
+                    <li>
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="width:30%">
+                                <label>ID号码</label>
+                            </div>
+                            <div class="ui-block-b">
+                                <label>C8O2SS3I</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="padding-top:0;padding-bottom: 0;">
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="padding-top: 14px;width: 30%;">
+                                <label>昵称</label>
+                            </div>
+                            <div class="ui-block-b" style="width:65%">
+                                <input type="text" class="ui-mini" value="于朝晖" />
+                            </div>
+                        </div>
+                    </li>
+                    <li style="padding-top:0;padding-bottom: 0;">
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="padding-top: 14px;width: 30%;">
+                                <label>性别</label>
+                            </div>
+                            <div class="ui-block-b" style="width:65%;line-height: 46px;">
+                                <input type="radio" name="pageUserDetailUpdate_txtGender" value="0" data-role="none" style="margin-left: 0;" checked="checked">男
+                                <input type="radio" name="pageUserDetailUpdate_txtGender" value="1" data-role="none" style="margin-left: 30px;">女
+                            </div>
+                        </div>
+                    </li>
+                    <li style="padding-top:0;padding-bottom: 0;">
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="padding-top: 14px;width: 30%;">
+                                <label>所属企业</label>
+                            </div>
+                            <div class="ui-block-b" style="width:65%">
+                                <input type="text" class="ui-mini" value="西安偕行信息科技有限公司" />
+                            </div>
+                        </div>
+                    </li>
+                    <li style="padding-top:0;padding-bottom: 0;">
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="padding-top: 14px;width: 30%;">
+                                <label>职务</label>
+                            </div>
+                            <div class="ui-block-b" style="width:65%">
+                                <input type="text" class="ui-mini" value="部门经理" />
+                            </div>
+                        </div>
+                    </li>
+                    <li style="padding-top:0;padding-bottom: 0;">
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="padding-top: 14px;width: 30%;">
+                                <label>企业主业</label>
+                            </div>
+                            <div class="ui-block-b" style="width:65%">
+                                <input type="text" class="ui-mini" value="www.xiexing.com" />
+                            </div>
+                        </div>
+                    </li>
+                    <li style="padding-top:0;padding-bottom: 0;">
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="padding-top: 14px;width: 30%;">
+                                <label>企业类型</label>
+                            </div>
+                            <div class="ui-block-b" style="width:65%">
+                                <select data-mini="true" style="width:100%" data-theme="c">
+                                    <option selected="selected" value="IT产业">IT产业</option>
+                                    <option selected="selected" value="文化产业">文化产业</option>
+                                    <option selected="selected" value="商贸产业">商贸产业</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="padding-top:0;padding-bottom: 0;">
+                        <div class="ui-grid-a" style="margin-left: 5%;">
+                            <div class="ui-block-a" style="padding-top: 14px;width: 30%;">
+                                <label>所属分会</label>
+                            </div>
+                            <div class="ui-block-b" style="width:65%">
+                                <select data-mini="true" style="width:100%" data-theme="c">
+                                    <option selected="selected" value="CEO分会">CEO分会</option>
+                                    <option selected="selected" value="程序员分会">程序员分会</option>
+                                    <option selected="selected" value="销售人员分会">销售人员分会</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <fieldset class="ui-mini ui-content">
+                    <a href="userdetail.html" data-role="button" data-transition="slide" style="margin-top:5em;" data-theme="e">确认修改</a>
+                </fieldset>
+            </div>
+        </div>
+        <!-- /content -->
+        <!-- /footer -->
+    </div>
+</body>
+</html>

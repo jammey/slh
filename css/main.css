@@ -1,0 +1,330 @@
+﻿html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.ui-popup-screen {
+    position: fixed;
+    bottom: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ui-page-theme-d {
+    background-color: white !important;
+}
+
+.header-icon-clike:after {
+    background-color: transparent;
+    background-image: url("../images/iconfont-guanzhu.png");
+    background-size: 18px 18px;
+    border-radius: 0;
+}
+
+.header-icon-cback:after {
+    background-color: transparent;
+    background-image: url("../images/iconfont-qiehuanqizuo.png");
+    background-size: 18px 18px;
+    border-radius: 0;
+}
+
+.header-icon-cedit:after {
+    background-color: transparent;
+    background-image: url("../images/iconfont-iconfontxiugai.png");
+    background-size: 18px 18px;
+    border-radius: 0;
+}
+
+.ui-icon-flat-search:after {
+    background-image: url("../images/iconfont-sousuo.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-x: 1px;
+    background-position-y: 1px;
+}
+
+.ui-icon-subsribe:after {
+    background-color: transparent;
+    background-image: url("../images/iconfont-dingyue.png"); /**你的图片，路径是相对于当前使用文件可以访问到的*/
+    background-size: 24px 24px;
+    border-radius: 0;
+}
+
+.ui-icon-shouye:after {
+    background-color: transparent;
+    background-image: url("../images/iconfont-shouye.png"); /**你的图片，路径是相对于当前使用文件可以访问到的*/
+    background-size: 24px 24px;
+    border-radius: 0;
+}
+
+.ui-icon-xiaoxi:after {
+    background-color: transparent;
+    background-image: url("../images/iconfont-xiaoxi.png"); /**你的图片，路径是相对于当前使用文件可以访问到的*/
+    background-size: 24px 24px;
+    border-radius: 0;
+}
+
+.ui-icon-gerenzhongxinicon:after {
+    background-color: transparent;
+    background-image: url("../images/iconfont-gerenzhongxinicon.png"); /**你的图片，路径是相对于当前使用文件可以访问到的*/
+    background-size: 24px 24px;
+    border-radius: 0;
+}
+
+article {
+}
+
+    article h1 {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    article h2 {
+        font-size: 1.0em;
+        font-weight: bold;
+    }
+
+    article h3 {
+        font-size: 1.0em;
+        font-weight: bold;
+    }
+
+    article p {
+        line-height: 1.6em;
+        font-size: 1em;
+    }
+
+#pageIndex_nav {
+    height: 30px;
+}
+
+#pageIndex_nav, #pageIndex_imgs {
+    width: 100%;
+}
+
+#pageIndex_imgs {
+    /*height: 160px;*/
+}
+
+.swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: rgb(173, 173, 173);
+}
+
+.swiper-container .active {
+    border-bottom: solid 2px rgb(234,67,61);
+    font-weight: bold;
+    color: rgb(234,67,61);
+}
+
+#pageIndex_nav .swiper-slide {
+    height: 27px !important;
+}
+
+#pageIndex_newsList img {
+    padding: 10px 0px 0px 10px;
+    width: 80px;
+    height: 60px;
+}
+
+#pageIndex_newsList .ui-listview > li h2 {
+    margin: 0px !important;
+}
+
+#pageIndex_newsList .ui-listview > li p {
+    margin: 0.3em 0px !important;
+    color: #808080;
+}
+
+.imageTitleDiv {
+    position: absolute;
+    background-color: #000000;
+    background-color: rgba(0,0,0,.3);
+    height: 25px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+    .imageTitleDiv div {
+        left: 5px;
+        position: absolute;
+        bottom: 3px;
+        color: #fff;
+        font-size: 14px;
+        width: 80%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: left;
+    }
+
+.swiperPaginitionExt {
+    right: 10px;
+    position: absolute;
+    bottom: 3px;
+}
+
+/*.footerPadding {
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+.footerPadding a{
+    padding-top: 2.2em;
+}*/
+
+.backgroundGray {
+    background: #F7F7F7 !important;
+}
+
+.forgetPwd {
+    text-align: center;
+    color: red;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.tabLoginDiv {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.tabRegDiv {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.yuanButton {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*.yuanLogin img {
+        padding-top: 12px;
+        padding-left: 2px;
+        width: 26px;
+    }*/
+
+.spanLogin {
+    color: #fff;
+    padding-top: 13px;
+    display: block;
+}
+
+.tuoyuanSmall {
+    border-radius: 20px;
+    width: 90px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.tuoyuan {
+    border-radius: 35px;
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.tableProfile {
+    width: 100%;
+}
+
+    .tableProfile tr {
+        line-height: 35px;
+    }
+
+        .tableProfile tr td:nth-child(1) {
+            text-align: left;
+            width: 75px;
+        }
+
+        .tableProfile tr td:nth-child(3) {
+            color: red;
+            text-align: right;
+            font-size: 12px;
+            width: 40px;
+        }
+
+        .tableProfile input[type='text'] {
+            width: 100%
+        }
+
+#pageUserReg_divRegGetCode.getVCode {
+    background-color: #c1392b;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    color: #fff
+}
+
+#pageUserReg_divRegGetCode.countDown {
+    background: #000;
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    cursor: default;
+}
+
+div.category-block {
+    padding: 10px;
+}
+div.whitesquare {
+    background-color:white;padding: 10px; text-align: center; border-radius: 20px;
+}
+
+div.whitesquare img {
+    width: 60%;
+}
+
+div.category-name {
+    font-size:17px; color:rgb(234, 128, 16)
+}
+
+.swiper-slide {
+    height: auto!important;
+}
+
+#pageIndex_topImg {
+    height: auto!important;
+}

@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/userlogin.js"></script>
+    <script src="internalScripts/commercialcategory.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageEnterpriseCategory" data-theme="d">
+        <div data-role="header">
+            <a data-role="button" data-icon="custom" data-iconpos="notext" data-rel="back" class="header-icon-cback" href="#"></a>
+            <h2>IT企业</h2>
+            <a data-role="button" data-icon="flat-search" data-iconpos="notext" href="#"></a>
+        </div>
+          <div class="swiper-container" id="pageEnterpriseCategory_nav" style="background: #fff">
+            <div id="pageEnterpriseCategory_topMenu" class="swiper-wrapper" style="height: 27px!important">
+                <div class="swiper-slide" style="height: 27px!important" onclick='changePage("index.html")'>
+                    企业新闻
+                </div>
+                <div class="swiper-slide" style="height: 27px!important" onclick='changePage("commercialcategory.html")'>
+                    商联会
+                </div>
+                <div class="swiper-slide  active" style="height: 27px!important" onclick='changePage("enterprisecategory.html")'>
+                    企业窗
+                </div>
+                <div class="swiper-slide" style="height: 27px!important">
+                    助推器
+                </div>
+            </div>
+            <!-- Add Pagination -->
+        </div>
+    <div data-role="content">
+       
+        <div class="ui-grid-a" style="margin-top:10px;width: 100%; text-align: center;">
+            <div class="ui-block-a">
+                <div class="tuoyuan"   style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;" >
+                    <a style="color:white;" href="enterpriselist.html"> IT企业 </a>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;">
+                    文化产业
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a" style="margin-top:10px;width: 100%; text-align: center;">
+            <div class="ui-block-a">
+                <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;">
+                    IT企业
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;">
+                    文化产业
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a" style="margin-top:10px;width: 100%; text-align: center;">
+            <div class="ui-block-a">
+                <div class="tuoyuan" style="background-color: #ffc14a;margin-top:15px;margin-right: 15%;">
+                    商贸企业
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;">
+                    商业
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a" style="margin-top:10px;width: 100%; text-align: center;">
+                <div class="ui-block-a">
+                 <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;">
+                    零售批发
+                </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;">
+                    广告产业
+                </div>
+                </div>
+            </div><div class="ui-grid-a" style="margin-top:10px;width: 100%; text-align: center;">
+                <div class="ui-block-a">
+                 <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 15px;margin-right: 15%;">
+                    金融业
+                </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 20px;margin-right: 15%;">
+                    服务业
+                </div>
+                </div>
+            </div><div class="ui-grid-a" style="margin-top:10px;width: 100%; text-align: center;">
+                <div class="ui-block-a">
+                 <div class="tuoyuan" style="background-color: #ffc14a;margin-top: 20px;margin-right: 15%;">
+                    房地产业
+                </div>
+                </div>
+               
+                </div>
+            </div>
+        <div id="standardFooter" data-role="footer" data-fullscreen="false" data-position="fixed" data-toggle="false" data-theme="c">
+        </div>
+        <!-- /content -->
+        <!-- /footer -->
+    </div>
+        </div>
+</body>
+</html>
+

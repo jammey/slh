@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/userlogin.js"></script>
+    <script src="internalScripts/usercenter.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageUserCenter" data-theme="d">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false">
+            <a href="#" data-icon="back" data-transition="slide" data-rel="back" data-iconpos="notext" data-direction="reverse"></a>
+            <h2>
+                个人中心
+            </h2>
+        </div>
+        <!-- /header -->
+        <div data-role="content" data-theme="none">
+            <div>
+                <div style="text-align: center;">
+                    <img src="images/3.jpeg" style="width: 128px;"/>
+                    <div style="font-weight: bold;margin: 5px 0 40px 0">于朝晖</div>
+                </div>
+                <ul data-role="listview" data-theme="c">
+                    <li>
+                        <a href="userdetail.html" data-transition="slide" style="padding-left:18%; background-color:white">
+                            <img src="images/iconfont-zhanghubaobiao.png" class="ui-li-icon ui-corner-none" style="padding-left:1em;" />
+                            我的资料
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-transition="slide" style="padding-left:18%; background-color:white">
+                            <img src="images/iconfont-shoucang.png" class="ui-li-icon ui-corner-none" style="padding-left:1em;" />
+                            我的收藏
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-transition="slide" style="padding-left:18%; background-color:white">
+                            <img src="images/iconfont-wodetiezi.png" class="ui-li-icon ui-corner-none" style="padding-left:1em;" />
+                            我的帖子
+                        </a>
+                    </li>
+                    <li>
+                        <a href="usersetting.html" data-transition="slide" style="padding-left:18%; background-color:white">
+                            <img src="images/iconfont-shezhi.png" class="ui-li-icon ui-corner-none" style="padding-left:1em;" />
+                            设置
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-transition="slide" style="padding-left:18%; background-color:white">
+                            <img src="images/iconfont-xiaoxiguanli.png" class="ui-li-icon ui-corner-none" style="padding-left:1em;" />
+                            消息
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-transition="slide" style="padding-left:18%; background-color:white">
+                            <img src="images/iconfont-miantiaofenxiangfuzhilianjie.png" class="ui-li-icon ui-corner-none" style="padding-left:1em;" />
+                            复制链接
+                        </a>
+                    </li>
+                </ul>
+                <!--<fieldset class="ui-mini ui-content">
+                    <a id="pageUserCenter_logout" data-role="button" data-transition="slide" style="margin-top:5em;" data-theme="e">退出登录</a>
+                </fieldset>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

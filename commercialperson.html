@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/userlogin.js"></script>
+    <script src="internalScripts/commercialcategory.js"></script>
+    <script src="internalScripts/commercialperson.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageCommercialPerson" data-theme="d" class="backgroundGray">
+        <div data-role="header">
+            <a href="#" data-icon="custom" data-iconpos="notext" data-role="button" data-rel="back" class="header-icon-cback"></a>
+            <h2>商会人物</h2>
+            <a data-role="button" data-icon="flat-search" data-iconpos="notext" href="#"></a>
+        </div>
+        <div id="swiperNav" style="min-height: 30px;"></div>
+        <div data-role="content" data-theme="none">
+            <div class="ui-grid-a">
+                <div class="ui-block-a" style="padding: 5px 3px 5px 0;">
+                    <div style="background-color:white;padding: 2px; text-align: center;" onclick="changePage('commercialpersondetail.html')">
+                        <img src="images/4.png" style="width: 98%" />
+                        <div style="text-align: left;font-weight: bold;font-size: .9em">马云</div>
+                        <div style="text-align: left;color:#999;font-size: .9em">男，杭州人，中国著名企业家，阿里巴巴集团、淘宝网、支付宝创始人</div>
+                    </div>
+                </div>
+                <div class="ui-block-b" style="padding: 5px 0 5px 3px;">
+                    <div style="background-color:white;padding: 2px; text-align: center;" onclick="changePage('commercialpersondetail.html')">
+                        <img src="images/4.png" style="width: 98%" />
+                        <div style="text-align: left;font-weight: bold;font-size: .9em">马云</div>
+                        <div style="text-align: left;color:#999;font-size: .9em">男，杭州人，中国著名企业家，阿里巴巴集团、淘宝网、支付宝创始人</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a" style="padding: 5px 3px 5px 0;">
+                    <div style="background-color:white;padding: 2px; text-align: center;" onclick="changePage('commercialpersondetail.html')">
+                        <img src="images/4.png" style="width: 98%" />
+                        <div style="text-align: left;font-weight: bold;font-size: .9em">马云</div>
+                        <div style="text-align: left;color:#999;font-size: .9em">男，杭州人，中国著名企业家，阿里巴巴集团、淘宝网、支付宝创始人</div>
+                    </div>
+                </div>
+                <div class="ui-block-b" style="padding: 5px 0 5px 3px;">
+                    <div style="background-color:white;padding: 2px; text-align: center;" onclick="changePage('commercialpersondetail.html')">
+                        <img src="images/4.png" style="width: 98%" />
+                        <div style="text-align: left;font-weight: bold;font-size: .9em">马云</div>
+                        <div style="text-align: left;color:#999;font-size: .9em">男，杭州人，中国著名企业家，阿里巴巴集团、淘宝网、支付宝创始人</div>
+                    </div>
+                </div>
+            </div>
+            <ul data-role="listview" data-theme="c" style="margin-top:10px;">
+                <li>
+                    <h2>中国重启高层对话安全 曾因钓鱼岛问题中断4年</h2>
+                </li>
+                <li>
+                    <h2>习近平将出席博鳌2015年会</h2>
+                </li>
+                <li>
+                    <h2>专家解读“周永康等搞非组织政治活动”</h2>
+                </li>
+                <li>
+                    <h2>安邦持27股成招行二股东</h2>
+                </li>
+            </ul>
+        </div>
+        <div id="standardFooter" data-role="footer" data-fullscreen="false" data-position="fixed" data-toggle="false" data-theme="c">
+        </div>
+        <div style="display:none;">
+            <div id="pageIndex_topMenuTemplate">
+                <div class="swiper-slide" data-bind="text:{Title};uniqueindex:{UniqueIndex}">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

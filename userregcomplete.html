@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.4.min.js"></script>
+    <script src="scripts/Swipe.js"></script>
+    <script src="scripts/jquery.md5.js"></script>
+    <script src="internalScripts/resource.js"></script>
+    <script src="internalScripts/common.js"></script>
+    <script src="internalScripts/core.js"></script>
+    <script src="internalScripts/userregcomplete.js"></script>
+    <link href="css/jquery.mobile.flatui.css" rel="stylesheet" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="pageUserRegComplete" data-theme="d" class="backgroundGray">
+        <div data-role="header">
+            <a href="#" data-icon="custom" data-iconpos="notext" data-role="button" data-rel="back" class="header-icon-cback"></a>
+            <h2>资料填写</h2>
+        </div>
+        <div data-role="content" data-theme="none">
+            <div id="pageUserRegComplete_tabLogin" style="text-align: center;">
+                <img src="images/iconfont-shangchuanxiaotouxiang.png" />
+                <table class="tableProfile">
+                    <tr>
+                        <td>
+                            ID号码
+                        </td>
+                        <td>
+                            <input id="pageUserRegComplete_txtId" type="text" data-role="none" class="ui-state-disabled" />
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr style="line-height: 35px;">
+                        <td>
+                            昵称
+                        </td>
+                        <td>
+                            <input id="pageUserRegComplete_txtNickName" type="text" data-role="none" placeholder="请使用真实姓名" />
+                        </td>
+                        <td>
+                            (必填)
+                        </td>
+                    </tr>
+                    <tr style="line-height: 35px;">
+                        <td>
+                            性别
+                        </td>
+                        <td style="text-align: left;">
+                            <input type="radio" name="pageUserRegComplete_txtGender" value="0" data-role="none" style="margin-left: 0;" checked="checked">男
+                            <input type="radio" name="pageUserRegComplete_txtGender" value="1" data-role="none" style="margin-left: 30px;">女
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr style="line-height: 35px;">
+                        <td>
+                            所属企业
+                        </td>
+                        <td>
+                            <input id="pageUserRegComplete_txtCompany" type="text" data-role="none" />
+                        </td>
+                        <td>
+                            (必填)
+                        </td>
+                    </tr>
+                    <tr style="line-height: 35px;">
+                        <td>
+                            职务
+                        </td>
+                        <td>
+                            <input id="pageUserRegComplete_txtTitle" type="text" data-role="none" />
+                        </td>
+                        <td>
+                            (必填)
+                        </td>
+                    </tr>
+                    <tr style="line-height: 35px;">
+                        <td>
+                            企业网址
+                        </td>
+                        <td>
+                            <input id="pageUserRegComplete_txtWebsite" type="text" data-role="none" />
+                        </td>
+                        <td>
+                            (必填)
+                        </td>
+                    </tr>
+                    <tr style="line-height: 35px;">
+                        <td>
+                            企业类型
+                        </td>
+                        <td>
+                            <select id="pageUserRegComplete_selCompanyType" data-mini="true" style="width:100%" data-theme="c"></select>
+                        </td>
+                        <td>
+                            (必填)
+                        </td>
+                    </tr>
+                    <tr style="line-height: 35px;">
+                        <td>
+                            所属分会
+                        </td>
+                        <td>
+                            <select id="pageUserRegComplete_selSubAssociation" data-mini="true" style="width:100%" data-theme="c"></select>
+                        </td>
+                        <td>
+                            (必填)
+                        </td>
+                    </tr>
+                </table>
+                <div style="width: 100%; text-align: center;">
+                    <div id="pageUserRegComplete_btnSubmit" class="tuoyuan" style="background-color: #c1392b;margin-top: 30px;">
+                        提交
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /content -->
+        <!-- /footer -->
+    </div>
+</body>
+</html>
